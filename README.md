@@ -24,5 +24,5 @@
 3. Проверка: файл должен открываться по
    `https://<твой-логин>.github.io/polypour-site/app-ads.txt`.
 
-Примечание: email в privacy policy — dmitriiursachi@gmail.com; если email
+Примечание: email в privacy policy — mc.c0rp@icloud.com; если email
 разработчика в Play Console будет другой, поменяй его и в index.html.
