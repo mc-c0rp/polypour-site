@@ -1,0 +1,18 @@
+# app-ads.txt — Poly Pour (m0pxx.polypour)
+# Список рекламных систем, которым разрешено продавать трафик этого приложения.
+# Спецификация IAB: https://iabtechlab.com/ads-txt/
+#
+# ВАЖНО: строки ниже нужно заменить на те, что выдают сами сети.
+# Придумывать ID нельзя — с неверным ID строка просто не сработает.
+#
+# Где взять точные строки:
+#   Unity Ads   → Unity Dashboard → Monetization → Настройки организации → app-ads.txt
+#   ironSource  → LevelPlay → Setup → app-ads.txt (появится после одобрения аккаунта)
+#
+# Формат: <домен системы>, <ID издателя>, DIRECT|RESELLER, <ID сертификации>
+
+# --- Unity Ads (вставить строку из дашборда, обычно такого вида) ---
+# unityads.unity3d.com, ВАШ_ORGANIZATION_CORE_ID, DIRECT, 96cabb5fbdf37b74
+
+# --- ironSource / LevelPlay (вставить строки из дашборда после одобрения) ---
+
