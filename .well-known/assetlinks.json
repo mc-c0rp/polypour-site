@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "m0pxx.polypour",
+      "sha256_cert_fingerprints":
+        ["E6:D0:DC:2F:43:E3:5B:EB:37:F0:C6:C8:7B:37:C3:0D:6B:28:7F:9C:42:0C:62:54:9C:63:11:37:A6:5D:0A:71"]
+    }
+  }
+]
