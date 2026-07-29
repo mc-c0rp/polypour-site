@@ -326,3 +326,6 @@ conversantmedia.com, 100269, RESELLER, 03113cd04947736d
 spinx.biz, 1373698890, RESELLER
 rubiconproject.com, 27714, RESELLER, 0bfd66d529a55807
 orbrx.ai, 8000869124, RESELLER
+
+# --- AdMob напрямую (2026-07-29) ---
+google.com, pub-6173688885430860, DIRECT, f08c47fec0942fa0
