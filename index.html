@@ -20,7 +20,7 @@
 
 <h1>Privacy Policy for Poly Pour</h1>
 <p class="meta"><strong>Effective date:</strong> July 21, 2026<br>
-<strong>Last updated:</strong> July 23, 2026</p>
+<strong>Last updated:</strong> July 29, 2026</p>
 
 <p>This Privacy Policy explains how information is handled in connection with the mobile game
 <strong>Poly Pour</strong> (the “Game”), an offline single-player puzzle game for Android developed by
@@ -38,10 +38,11 @@ this Privacy Policy.</p>
 </ul>
 <p>Your game progress (levels completed, settings, and similar) is stored <strong>only locally on your
 device</strong> as a save file. We do not receive a copy of it.</p>
-<p>The <strong>one exception</strong> to “no data leaves your device” is <strong>advertising</strong>. The Game includes
+<p>The <strong>main exception</strong> to “no data leaves your device” is <strong>advertising</strong>. The Game includes
 optional ads served through third-party advertising partners. When ads are shown, those partners may
-collect certain information as described in Section 4. This is the only part of the Game that
-connects to the internet.</p>
+collect certain information as described in Section 4. Besides advertising, the Game connects to the
+internet only for features you choose to use: <strong>in-app purchases</strong> (processed by Google Play,
+Section 4a) and the optional <strong>Google Play Games sign-in</strong>.</p>
 
 <h2>2. Information We Collect</h2>
 <h3>2.1 Information collected by us — none beyond local storage</h3>
@@ -98,7 +99,23 @@ data controller for the data it collects:</p>
       <a href="https://www.is.com/privacy-policy/">is.com/privacy-policy</a></li>
   <li><strong>Yandex Advertising Network (Yandex Ads)</strong> — Privacy policy:
       <a href="https://yandex.com/legal/confidential/">yandex.com/legal/confidential</a></li>
+  <li><strong>Google AdMob</strong> — Privacy policy:
+      <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> ·
+      <a href="https://policies.google.com/technologies/partner-sites">How Google uses data from partner apps</a></li>
 </ul>
+<p><strong>Bundled analytics (AppMetrica).</strong> The Yandex advertising SDK ships with components of
+<strong>Yandex AppMetrica</strong>, which may collect diagnostic information such as crash reports, device and
+network characteristics, and installation attribution data. This is part of how the Yandex SDK
+operates and is governed by the
+<a href="https://yandex.com/legal/confidential/">Yandex privacy policy</a>. We do not operate our own
+analytics and do not receive these reports directly.</p>
+
+<h3 id="purchases">4a. In-app purchases (Google Play Billing)</h3>
+<p>The Game offers optional in-app purchases (for example “Remove ads” and coin packs). Payments are
+processed entirely by <strong>Google Play</strong>; we never see or store your payment card details. Google
+provides us only anonymous transaction confirmation needed to unlock the purchase. Your purchase
+entitlements are recorded in the local save file, and remain associated with your Google account for
+restore purposes under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h3>Google Play Games Services (optional sign-in)</h3>
 <p>The Game may integrate <strong>Google Play Games Services</strong> for achievements, leaderboards and the
@@ -112,12 +129,19 @@ We do not receive or store any of this data on servers of ours. This processing 
 <a href="https://policies.google.com/privacy">Google Privacy Policy</a>; you can manage or delete your
 Play Games profile data in your device's Play Games settings.</p>
 
-<h3>Android permissions used by the advertising SDK</h3>
+<h3>Android permissions used by the Game and its SDKs</h3>
 <ul>
-  <li><code>INTERNET</code> — to request and load ads over the network.</li>
-  <li><code>ACCESS_NETWORK_STATE</code> — to check connectivity before requesting ads.</li>
-  <li><code>com.google.android.gms.permission.AD_ID</code> — to access the Android Advertising ID
+  <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — to request and load ads and process purchases.</li>
+  <li><code>com.google.android.gms.permission.AD_ID</code> — access to the Android Advertising ID
       (AAID / GAID) for advertising purposes.</li>
+  <li><code>POST_NOTIFICATIONS</code> — optional <strong>local</strong> reminders (for example, the daily puzzle).
+      These notifications are scheduled entirely on your device; there is no push service and nothing
+      is transmitted. You can decline or disable them at any time in system settings.</li>
+  <li><code>ACCESS_ADSERVICES_TOPICS</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code> — Android
+      <strong>Privacy Sandbox</strong> APIs, used by advertising SDKs for interest-based ads and conversion
+      measurement where available.</li>
+  <li>Install-referrer access (<code>BIND_GET_INSTALL_REFERRER_SERVICE</code>) — used by advertising SDKs
+      to attribute app installs.</li>
 </ul>
 <p>The Game does not request permissions for your contacts, camera, microphone, precise location, or
 storage of your personal files.</p>
