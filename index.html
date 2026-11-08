@@ -20,211 +20,381 @@
 
 <h1>Privacy Policy for Poly Pour</h1>
 <p class="meta"><strong>Effective date:</strong> July 21, 2026<br>
-<strong>Last updated:</strong> July 29, 2026</p>
+<strong>Last updated:</strong> November 8, 2026</p>
 
-<p>This Privacy Policy explains how information is handled in connection with the mobile game
-<strong>Poly Pour</strong> (the “Game”), an offline single-player puzzle game for Android developed by
-<strong>m0pxx</strong> (“we”, “us”, “our”).</p>
+<p>This Privacy Policy explains what information is collected when you use the mobile game
+<strong>Poly Pour</strong> (listed on Google Play as “Poly Pour: Color Sort Puzzle!”, package
+<code>m0pxx.polypour</code>; the “Game”), a single-player puzzle game for Android developed and operated by
+<strong>m0pxx</strong> (“we”, “us”, “our”), whose developer name on Google Play is <strong>mc_c0rp</strong>. The
+developer's legal name and address are shown under “About the developer” on the Game's Google Play page. This policy explains why information is collected, who receives it, how long it is kept, and
+how you can control it. For the game statistics that the Game sends to our own server (Section 2.1), we are the party
+responsible for that data (the “controller”). Contact: <a href="mailto:mc.c0rp@icloud.com">mc.c0rp@icloud.com</a>.</p>
 
 <p>By downloading, installing, or using the Game, you acknowledge that you have read and understood
 this Privacy Policy.</p>
 
-<h2>1. Introduction</h2>
-<p>Poly Pour is a fully <strong>offline, single-player</strong> puzzle game built with Unity. The Game has:</p>
+<h2>1. Summary</h2>
 <ul>
-  <li><strong>No user accounts</strong> and <strong>no login</strong>.</li>
-  <li><strong>No backend server</strong> operated by us that receives your data.</li>
-  <li><strong>No collection of personal data directly by us.</strong></li>
+  <li>The Game has <strong>no user accounts</strong> of its own. If you have a Google Play Games profile, the Game
+      signs you in to Google Play Games for achievements and leaderboards; that is handled by Google
+      (Section 4b).</li>
+  <li><strong>We collect game statistics.</strong> Whenever your device is online, the Game sends our server
+      (<code>polypourapi.mwhisper.xyz</code>) records of what happens in the Game: gameplay, in-game currency, in-app
+      purchases, whether ads were shown, and basic technical information. These records are linked to a random
+      installation ID that the Game creates. We use them for analytics, for game features, and to prevent cheating and
+      fraud. We do not sell them, share them with advertisers, or use them for advertising (Sections 2.1 and 3).</li>
+  <li><strong>Our server does not receive</strong> your name or Play Games gamer name, email address, phone number,
+      contacts, photos, precise location, Google account, Play Games ID or advertising ID. (If you email us, we
+      receive your email address; see Section 7.1.)</li>
+  <li><strong>Advertising partners</strong> and other third-party components in the Game (Unity, Google, Yandex)
+      collect information such as your advertising ID, your IP address and approximate location, device information,
+      crash reports, and how you interact with ads and the app. Some of these components start as soon as the app
+      launches (Sections 2.2, 2.3, 4 and 7.4).</li>
+  <li>You can ask us to delete the game statistics we hold about you (<a href="#data-deletion">Section 7.1</a>).</li>
 </ul>
-<p>Your game progress (levels completed, settings, and similar) is stored <strong>only locally on your
-device</strong> as a save file. We do not receive a copy of it.</p>
-<p>The <strong>main exception</strong> to “no data leaves your device” is <strong>advertising</strong>. The Game includes
-optional ads served through third-party advertising partners. When ads are shown, those partners may
-collect certain information as described in Section 4. Besides advertising, the Game connects to the
-internet only for features you choose to use: <strong>in-app purchases</strong> (processed by Google Play,
-Section 4a) and the optional <strong>Google Play Games sign-in</strong>.</p>
+<p>Your game progress (levels, settings, items you own) is saved in a file on your device. We do not receive or back
+up that file. The game statistics we receive do include some of the same figures, such as your highest level and your
+gem balance.</p>
 
 <h2>2. Information We Collect</h2>
-<h3>2.1 Information collected by us — none beyond local storage</h3>
-<p>We, <strong>m0pxx</strong>, do <strong>not</strong> collect, receive, transmit, sell, or store any personal information
-about you. Specifically, we do not collect your name, email address, phone number, precise location,
-contacts, photos, or any account information — because the Game has no accounts and no server of
-ours to send anything to.</p>
-<p>The only data the Game itself creates is a <strong>local save file</strong> (see Section 5), which stays on
-your device and is never sent to us.</p>
-<p>The Game may offer an <strong>optional sign-in with Google Play Games</strong> (for achievements and
-leaderboards). If you use it, the related data is processed by Google, not by us — see Section 4.
-The Game remains fully playable without signing in.</p>
-
-<h3>2.2 Information collected by our advertising partners</h3>
-<p>The Game displays <strong>optional</strong> rewarded ads and interstitial ads through third-party ad networks
-(see Section 4). To serve and measure these ads, those networks and their mediated partners may
-collect and process information from your device, which may include:</p>
+<h3 id="our-data">2.1 Game statistics collected by us</h3>
+<p>The first time the Game runs with an internet connection, it automatically sets up a secure connection with our
+server (you do not create an account). From then on it sends records of in-game events (“events”) about every 20
+seconds while you play, and when the Game goes to the background. Events recorded while you are offline are kept on
+your device and sent later. This happens automatically. It does not depend on the advertising choice in Section 7.4,
+and there is currently no in-game switch to turn it off (your choices are in Section 7.1).</p>
+<p><strong>Identifiers.</strong> On first launch the Game creates a random <strong>installation ID</strong>. It is not
+derived from your device, your Google account, your Play Games profile or your advertising ID, and we do not link it
+to any of them. The Game also creates a random <strong>session ID</strong> for each play session. Our server gives each
+installation a secret key, which the Game uses to sign its events so that they cannot be forged.</p>
+<p><strong>What the events can contain:</strong></p>
 <ul>
-  <li><strong>Advertising identifier</strong> — the Android Advertising ID (AAID / GAID).</li>
-  <li><strong>IP address</strong> (which can indicate approximate/coarse location).</li>
-  <li><strong>Coarse device and operating-system information</strong> — for example device model, OS version,
-      language, and network state.</li>
-  <li><strong>App-interaction and ad-engagement data</strong> — for example which ads were shown, viewed,
-      clicked, or completed.</li>
+  <li><strong>Gameplay and in-app activity:</strong> when a session starts and ends, and how long it lasts; levels
+      started, completed or quit, with the mode (campaign, daily, weekly), stars, number of moves, time spent, and hints
+      or extra tubes used; daily rewards, missions, weekly puzzles and achievements; battle-pass progress and rewards;
+      crates opened and what they contained; skins bought with gems or equipped; in-game announcements shown and the
+      buttons tapped; and whether an ad was shown, watched to the end, or held back by the Game's own pacing rules (not
+      which ad or advertiser).</li>
+  <li><strong>In-game currency:</strong> every change to your gems and its reason, and your gem, hint and extra-tube
+      balance at the time of each event.</li>
+  <li><strong>Progress summary</strong> (at the start of a session): highest level unlocked, total stars, number of
+      skins owned, whether “Remove ads” was bought, battle-pass season, level and premium status, the achievements you
+      have reached, the Game's language, and whether this is the first launch.</li>
+  <li><strong>Real-money purchases:</strong> the product, whether the purchase succeeded (or why it failed), the gems
+      granted, the price and currency shown by Google Play, and the transaction identifier that Google Play issues for
+      the purchase. We never receive your payment details or your Google account.</li>
+  <li><strong>Technical and integrity information:</strong> Game version, platform (Android), device model,
+      operating-system version, the time on your device, and reports when a game file fails its integrity check, when
+      the gem balance is changed outside the Game, or when the Game has to register again (such a report contains the
+      previous installation ID).</li>
+  <li><strong>IP address:</strong> like any internet server, ours receives your IP address with every request. We use
+      it to protect the server from abuse (for example, to limit how many requests one address can make). It is also
+      stored once, with the installation's registration record, for security purposes. We do not use it to find out
+      your location.</li>
 </ul>
-<p>This information is collected <strong>by the advertising partners, not by us</strong>. Its handling is
-governed by each partner's own privacy policy (see Section 4). We do not have access to the
-identifiers or profiles those partners build.</p>
+<p>The Game also downloads live content from our server (new skins, images, battle-pass seasons, in-game
+announcements), as well as the share of players who have earned each achievement. These downloads send no identifier,
+only the IP address and the basic technical information that every internet request carries.</p>
+
+<h3 id="partners-data">2.2 Information collected by advertising partners</h3>
+<p>The Game shows banner, rewarded, interstitial and app-open ads through the partners listed in Section 4. To serve,
+measure and protect ads, these partners and the ad networks they work with collect information from your device.
+Depending on the partner, this may include:</p>
+<ul>
+  <li><strong>Device and app identifiers:</strong> the Android advertising ID, the App Set ID, and identifiers that the
+      partner assigns to your device or to you;</li>
+  <li><strong>IP address</strong>, and the <strong>approximate location</strong> derived from it;</li>
+  <li><strong>Device and network information:</strong> for example device model, operating system, language,
+      network type and mobile network operator, and app and SDK performance diagnostics;</li>
+  <li><strong>App and ad interactions:</strong> for example app launches and sessions; ads requested, shown, viewed,
+      clicked or completed; and rewards granted;</li>
+  <li><strong>In-app purchase information:</strong> some partners (for example Unity Ads, and Yandex AppMetrica
+      described in Section 4) receive information about purchases made in the Game, for ad measurement and
+      analytics;</li>
+  <li><strong>Crash reports and app performance data</strong>, collected by the AppMetrica components bundled with the
+      Yandex SDK.</li>
+</ul>
+<p>Advertising partners handle this information as independent companies, under their own privacy policies
+(Section 4). We do not have access to the identifiers or profiles they build. Where the law requires consent, the Game
+does not start its ad mediation or request any ad until you answer the consent prompt; some partner components start
+earlier, as explained in Section 7.4.</p>
+
+<h3>2.3 Information collected by other third-party components</h3>
+<ul>
+  <li><strong>Unity</strong> (Unity Technologies). The Game is built with the Unity engine, whose diagnostics may send
+      Unity crash and error reports, device and performance information, and a random installation identifier. The
+      Unity In-App Purchasing component sends Unity information about purchase events: the product, price and currency,
+      the transaction details and receipt from Google Play, device model, operating-system version and language.</li>
+  <li><strong>Google Play services.</strong> Google Play Billing processes payments (Section 4a). Google Play Games
+      processes your Play Games profile, including the gamer name you choose, and your achievements and scores
+      (Section 4b). Google Play In-App Review shows Google Play's own rating card; your rating and comment go directly
+      to Google Play, and the Game does not receive them.</li>
+</ul>
+<p>If you use the Game's <strong>Share</strong> button, or open a link from the Game, the shared text or the link goes
+to the app you choose. We do not receive it.</p>
 
 <h2>3. How Information Is Used</h2>
-<p>Because we do not collect your personal data, we do not use it for anything.</p>
-<p>Information collected by our advertising partners (Section 2.2) is used by those partners to:</p>
+<p>We use the game statistics described in Section 2.1 to:</p>
 <ul>
-  <li>Serve ads within the Game (including optional rewarded ads and interstitials);</li>
+  <li><strong>Understand and improve the Game</strong> (analytics): for example, which levels are too hard, how long
+      sessions last, how many players come back, and how rewards, prices, ads and purchases perform;</li>
+  <li><strong>Run Game features:</strong> for example, showing in the Game the share of players who have earned each
+      achievement (an overall figure that identifies no one);</li>
+  <li><strong>Prevent fraud and keep the Game secure:</strong> detecting cheating, tampering with the save file or the
+      Game's memory, fake purchases, and abuse of our server.</li>
+</ul>
+<p>We do <strong>not</strong> use these statistics for advertising. We do not sell them, we do not share them with
+advertising partners or other third parties, and we do not try to find out who you are. Only we and the service
+providers that run our server on our behalf (Section 4c) handle them. Where the GDPR or UK GDPR applies, we rely on our
+<strong>legitimate interests</strong> in running, improving and securing the Game (Article 6(1)(f) GDPR).</p>
+<p>If you email us, we use your email address and message only to answer you and to handle your request.</p>
+<p>Information collected by advertising partners (Section 2.2) is used by those partners to:</p>
+<ul>
+  <li>Serve ads within the Game (including banners, optional rewarded ads and interstitials);</li>
   <li>Measure ad performance and prevent fraud or repeated/irrelevant ads;</li>
   <li>Where permitted and where you have consented, show <strong>personalized (interest-based) ads</strong>; and</li>
-  <li>Support the general operation, mediation, and reporting of their advertising services.</li>
+  <li>Support the general operation, mediation, analytics and reporting of their advertising services.</li>
 </ul>
 <p>You can limit personalized advertising as described in Section 7.</p>
 
-<h2>4. Third-Party Advertising &amp; SDKs</h2>
+<h2 id="partners">4. Third-Party Partners &amp; SDKs</h2>
 <p>The Game uses the following third-party advertising technology:</p>
 <ul>
-  <li><strong>Unity LevelPlay (ironSource) ad mediation</strong> — used to request, mediate, and display ads.
-      Privacy policy: <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a> ·
+  <li><strong>Unity LevelPlay (ironSource) ad mediation</strong>, used to request, mediate, and display ads.
+      LevelPlay includes the <strong>ironSource Ad Quality SDK</strong>, which LevelPlay starts automatically to monitor
+      the ads shown in the Game and to detect fraudulent, broken or harmful ads; it may collect device, network and
+      ad-interaction information. Privacy policy:
+      <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a> ·
       <a href="https://www.is.com/privacy-policy/">is.com/privacy-policy</a></li>
 </ul>
 <p>Through this mediation, ads may be served by the following ad networks, each of which may act as a
 data controller for the data it collects:</p>
 <ul>
-  <li><strong>Unity Ads</strong> — Privacy policy:
+  <li><strong>Unity Ads</strong>. Privacy policy:
       <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
-  <li><strong>ironSource Ads</strong> — Privacy policy:
+  <li><strong>ironSource Ads</strong>. Privacy policy:
       <a href="https://www.is.com/privacy-policy/">is.com/privacy-policy</a></li>
-  <li><strong>Yandex Advertising Network (Yandex Ads)</strong> — Privacy policy:
+  <li><strong>Yandex Advertising Network (Yandex Ads)</strong>, which is also used directly for app-open ads. The Yandex
+      SDK starts automatically when the app launches (Section 7.4). Privacy policy:
       <a href="https://yandex.com/legal/confidential/">yandex.com/legal/confidential</a></li>
-  <li><strong>Google AdMob</strong> — Privacy policy:
+  <li><strong>Google AdMob</strong>. Privacy policy:
       <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> ·
       <a href="https://policies.google.com/technologies/partner-sites">How Google uses data from partner apps</a></li>
 </ul>
-<p><strong>Bundled analytics (AppMetrica).</strong> The Yandex advertising SDK ships with components of
-<strong>Yandex AppMetrica</strong>, which may collect diagnostic information such as crash reports, device and
-network characteristics, and installation attribution data. This is part of how the Yandex SDK
-operates and is governed by the
-<a href="https://yandex.com/legal/confidential/">Yandex privacy policy</a>. We do not operate our own
-analytics and do not receive these reports directly.</p>
+<p><strong>Yandex AppMetrica.</strong> The Yandex advertising SDK ships with components of <strong>Yandex
+AppMetrica</strong>. These may automatically send Yandex information about app sessions, ad events, in-app purchase
+events and crashes, together with device and network characteristics, app performance data, device identifiers and
+installation-attribution data. This is part of how the Yandex SDK operates and is governed by the
+<a href="https://yandex.com/legal/confidential/">Yandex privacy policy</a>. We have not set up an AppMetrica account of
+our own for the Game, so these reports go to Yandex and we do not receive them.</p>
+<p><strong>Other third-party components:</strong></p>
+<ul>
+  <li><strong>Unity engine and Unity In-App Purchasing</strong> (Unity Technologies), Section 2.3. Privacy policy:
+      <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+  <li><strong>Google Play services</strong>: Google Play Billing, Google Play Games Services and Google Play In-App
+      Review. Privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+</ul>
 
 <h3 id="purchases">4a. In-app purchases (Google Play Billing)</h3>
-<p>The Game offers optional in-app purchases (for example “Remove ads” and coin packs). Payments are
-processed entirely by <strong>Google Play</strong>; we never see or store your payment card details. Google
-provides us only anonymous transaction confirmation needed to unlock the purchase. Your purchase
-entitlements are recorded in the local save file, and remain associated with your Google account for
-restore purposes under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>The Game offers optional in-app purchases (for example “Remove ads” and gem packs). Payments are processed entirely
+by <strong>Google Play</strong>; we never see or store your payment card details or your Google account. When you buy
+something, the purchase is recorded in the local save file, and the Game sends our server a purchase event
+(Section 2.1). Unity In-App Purchasing also sends Unity information about the purchase (Section 2.3). Your purchases
+remain associated with your Google account for restore purposes under the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h3>Google Play Games Services (optional sign-in)</h3>
-<p>The Game may integrate <strong>Google Play Games Services</strong> for achievements, leaderboards and the
-Play Games overlay. Signing in is <strong>optional</strong>: if you decline (or stay offline), every feature of
-the Game keeps working — only achievements and leaderboards are not synced.</p>
-<p>If you sign in, Google processes your Play Games <strong>gamer profile</strong> (gamer name and avatar) and
-receives the Game's <strong>achievement progress and leaderboard scores</strong> (such as total stars and
-levels completed). Leaderboard entries may be visible to other players according to
-<em>your own</em> Google Play Games privacy settings, which you control in your Google account.
-We do not receive or store any of this data on servers of ours. This processing is governed by the
-<a href="https://policies.google.com/privacy">Google Privacy Policy</a>; you can manage or delete your
-Play Games profile data in your device's Play Games settings.</p>
+<h3>4b. Google Play Games Services</h3>
+<p>The Game uses <strong>Google Play Games Services</strong> for achievements, leaderboards and the Play Games
+overlay. If you already have a Google Play Games profile, the Game signs you in automatically when it starts; you can
+choose in your Google Play Games settings whether games sign you in automatically. If you do not have a profile, Google may offer to create
+one, and doing so is optional. If you are not signed in (or stay offline), every feature of the Game keeps working;
+only achievements and leaderboards are not synced.</p>
+<p>When you are signed in, Google processes your Play Games <strong>gamer profile</strong> (gamer name, avatar and
+player ID), including the gamer name you choose if you create or change your profile, and receives the Game's
+<strong>achievement progress and leaderboard scores</strong> (such as total stars and levels completed). Leaderboard
+entries may be visible to other players according to <em>your own</em> Google Play Games privacy settings, which you
+control in your Google account. The Game shows your gamer name and avatar on your device and keeps your gamer name in
+the local save file. It does not send your gamer name, avatar or Play Games ID to our server. Our server receives your
+achievements and level progress only as part of the game statistics in Section 2.1, linked to the installation ID and
+not to your Play Games profile. Google's processing is governed by the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and you can manage or delete your
+Play Games profile data in your Play Games profile settings.</p>
+
+<h3 id="our-server">4c. Our server and its service providers</h3>
+<p>We receive the game statistics in Section 2.1 and store them in a database on a server that we rent from a hosting
+provider in the Republic of Moldova. Traffic to the server passes through <strong>Cloudflare</strong> (content delivery
+and protection against attacks), which processes it on our behalf, including your IP address. Privacy policy:
+<a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com/privacypolicy</a>. Our hosting provider and
+Cloudflare act on our instructions. To run and analyse the server, we also use software tools, which may include
+cloud-based developer and AI assistants that process the data only to carry out the tasks we give them.</p>
 
 <h3>Android permissions used by the Game and its SDKs</h3>
+<p>The main permissions declared by the Game and the SDKs it includes are:</p>
 <ul>
-  <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — to request and load ads and process purchases.</li>
-  <li><code>com.google.android.gms.permission.AD_ID</code> — access to the Android Advertising ID
-      (AAID / GAID) for advertising purposes.</li>
-  <li><code>POST_NOTIFICATIONS</code> — optional <strong>local</strong> reminders (for example, the daily puzzle).
-      These notifications are scheduled entirely on your device; there is no push service and nothing
-      is transmitted. You can decline or disable them at any time in system settings.</li>
-  <li><code>ACCESS_ADSERVICES_TOPICS</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code> — Android
+  <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>: to load ads, process purchases, download live
+      content, and send the game statistics described in Section 2.1.</li>
+  <li><code>com.google.android.gms.permission.AD_ID</code>, <code>ACCESS_ADSERVICES_AD_ID</code>: access to the
+      Android Advertising ID (AAID / GAID) and the Privacy Sandbox ad ID, for advertising purposes.</li>
+  <li><code>ACCESS_ADSERVICES_TOPICS</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code>: Android
       <strong>Privacy Sandbox</strong> APIs, used by advertising SDKs for interest-based ads and conversion
       measurement where available.</li>
-  <li>Install-referrer access (<code>BIND_GET_INSTALL_REFERRER_SERVICE</code>) — used by advertising SDKs
+  <li><code>READ_BASIC_PHONE_STATE</code>: added by the Google Mobile Ads SDK. It gives access only to basic
+      telephony information such as the network type, not to your phone number or calls.</li>
+  <li><code>com.android.vending.BILLING</code>: in-app purchases through Google Play.</li>
+  <li><code>POST_NOTIFICATIONS</code>: optional <strong>local</strong> reminders (for example, the daily puzzle).
+      These notifications are scheduled entirely on your device; there is no push service and nothing
+      is transmitted. You can decline or disable them at any time in system settings.</li>
+  <li><code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code>: used by SDK components (for example background work
+      scheduling and analytics delivery) to finish short tasks. They give no access to personal data.</li>
+  <li>Install-referrer access (<code>BIND_GET_INSTALL_REFERRER_SERVICE</code>): used by advertising SDKs
       to attribute app installs.</li>
 </ul>
-<p>The Game does not request permissions for your contacts, camera, microphone, precise location, or
+<p>The Game does not request permissions for your contacts, camera, microphone, precise or approximate location, or
 storage of your personal files.</p>
 
 <h2>5. Data Storage &amp; Retention</h2>
-<p><strong>Local only.</strong> Your game progress and settings are saved in a local save file stored on your
-device. This file never leaves your device through any system operated by us, is not backed up to
-any server of ours, and is fully within your control.</p>
-<p><strong>Retention and deletion.</strong> Because the save file lives on your device, it is retained until you
-delete it. You can remove it at any time by <strong>uninstalling the Game</strong> or by clearing the Game's
-data/storage in your device's Settings.</p>
-<p><strong>Advertising data retention.</strong> Data collected by advertising partners (Section 2.2) is retained
-and deleted according to each partner's own privacy policy and retention practices, which we do not
-control.</p>
+<p><strong>On your device.</strong> Your game progress and settings are kept in an encrypted save file in the Game's
+private storage. We do not receive, upload or back up this file. The installation ID, and any events waiting to be
+sent, are kept there too. All of this is deleted from the device when you uninstall the Game or clear its data in your
+device's Settings. “Reset progress” in the Game resets your progress but keeps the installation ID.</p>
+<p><strong>Android backup.</strong> If backup is turned on for your device, Android may include the Game's files,
+including the save file and the installation ID, in your Google backup. If they are restored when you reinstall the
+Game or set up a new device, the Game continues with the same installation ID. To start fresh, clear the Game's data
+after the restore, or turn off app backup in your device's settings.</p>
+<p><strong>On our server.</strong> The game statistics in Section 2.1 are kept as follows:</p>
+<ul>
+  <li>individual events: up to <strong>12 months</strong> after we receive them;</li>
+  <li>an installation's records (its registration record, including the IP address stored at registration, and its
+      summary: first and last activity, latest progress and balances, sessions, active days, achievements reached
+      and anti-cheat flags): until <strong>12 months after the installation was last active</strong>;</li>
+  <li>records you ask us to delete: deleted within <strong>30 days</strong> of your request (Section 7.1);</li>
+  <li>routine server backups: <strong>14 days</strong>, so deleted data also disappears from backups within 14 days;</li>
+  <li>our web server's technical access logs (IP address, time and requested address): up to
+      <strong>14 days</strong>;</li>
+  <li>emails you send us about a privacy request: until <strong>12 months after we close the request</strong>.</li>
+</ul>
+<p>We may keep totals and averages that cannot identify any installation (for example, “40% of players finished
+level 20”) for longer.</p>
+<p><strong>Advertising and partner data.</strong> Data collected by advertising partners and other third-party
+components (Sections 2.2 and 2.3) is retained and deleted according to each partner's own privacy policy and retention
+practices, which we do not control.</p>
 
 <h2>6. Children's Privacy (COPPA / GDPR-K)</h2>
 <p>Poly Pour is <strong>not directed to children under the age of 13</strong> (or the equivalent minimum age in
 your country, such as 16 under GDPR in some EU/EEA states).</p>
-<p>We do not knowingly collect personal information from children. If you believe a child has used
-the Game in a way that resulted in data being collected by an advertising partner, please contact us
-(Section 12) and we will help you direct the request to the appropriate partner.</p>
+<p>We do not knowingly collect personal information from children. The game statistics in Section 2.1 are not linked
+to any name or contact details. If you believe a child has used the Game, contact us (Section 12). We will delete the
+statistics of that installation (Section 7.1), and help you direct any request about advertising data to the
+appropriate partner.</p>
 
 <h2>7. Your Rights &amp; Choices</h2>
-<h3>7.1 Ad personalization opt-out (device settings)</h3>
+<h3 id="data-deletion">7.1 Poly Pour: Color Sort Puzzle! (developer mc_c0rp): deleting your data, getting a copy,
+and stopping collection</h3>
+<p>The statistics in Section 2.1 are tied only to a random installation ID, not to your name, email address or Google
+account, so we need a little help to find yours.</p>
+<ul>
+  <li><strong>Ask us to delete your data, or to send you a copy.</strong> Email
+      <a href="mailto:mc.c0rp@icloud.com?subject=Poly%20Pour%20data%20request">mc.c0rp@icloud.com</a> with the subject
+      “Poly Pour data request”, and say whether you want deletion or a copy. The installation ID is kept inside the Game
+      and is not currently shown on screen, so please include:
+      your device model; the approximate date you installed the Game; the date and approximate time you last played;
+      and your highest unlocked level and current gem balance. We will find the matching installation, delete all of its
+      records from our server (or send you a copy), and confirm within 30 days. If we cannot identify your
+      installation with reasonable certainty, we will tell you; in any case, its records are deleted on the schedule
+      in Section 5. Deletion on our server does not affect your progress, which is saved on your device. If you keep
+      playing afterwards, new statistics will be collected again under the same installation ID. To prevent that,
+      uninstall the Game or clear its data.</li>
+  <li><strong>What we delete.</strong> Every record of that installation on our server: its events, its summary,
+      sessions, active days, achievements reached, anti-cheat flags, and its registration record with the stored IP
+      address. If the Game had to register again at some point, so that your device used more than one installation
+      ID, we delete the records of all the linked installation IDs, including the references to an earlier ID in a
+      later installation's records.</li>
+  <li><strong>What we keep.</strong> Copies in our server backups, for up to 14 days; totals and averages that cannot
+      identify anyone (Section 5); and your request email, for 12 months after we close the request. Data held by
+      advertising partners, Unity and Google is not on our server. You can delete or limit it through their own tools
+      (Sections 4, 7.2 and 7.3).</li>
+  <li><strong>Stop collection and delete local data.</strong> Uninstall the Game, or clear its data
+      (<strong>Settings &gt; Apps &gt; Poly Pour &gt; Storage &gt; Clear data</strong>, which also deletes your progress).
+      This deletes the installation ID and any statistics not yet sent from the device, and nothing more is sent from
+      that installation. Records already on our server are no longer linked to anything on your device, and are deleted
+      on the schedule in Section 5. If you want them deleted sooner, email us before uninstalling, as described above.
+      If you install the Game again, it gets a new installation ID, unless Android restores the Game's data from your
+      Google backup (Section 5). Playing offline does not stop collection: events are stored and sent the next time your
+      device is online.</li>
+</ul>
+<h3>7.2 Ad personalization opt-out (device settings)</h3>
 <p>You can turn off personalized (interest-based) ads at the device level: open
 <strong>Settings &gt; Google &gt; Ads</strong> (wording may vary by device) and enable
 <strong>“Opt out of Ads Personalization” / “Delete advertising ID.”</strong> When personalization is off, you
 may still see ads, but they should not be based on an advertising profile.</p>
-<h3>7.2 Reset or delete your advertising ID</h3>
+<h3>7.3 Reset or delete your advertising ID</h3>
 <p><strong>Settings &gt; Google &gt; Ads &gt; Reset advertising ID</strong> (or <strong>Delete advertising ID</strong>).
 Resetting gives you a new, unlinked identifier; deleting it causes apps to receive a string of zeros
 instead of your ID.</p>
-<h3>7.3 Consent</h3>
-<p>Where required by law (in particular for users in the EU/EEA, the United Kingdom and Switzerland),
-the Game asks for your consent <strong>before any advertising SDK is initialised</strong>. Until you
-answer, no ad request is made and no advertising identifier is shared. If you decline, ads are still
-shown, but they are non-personalized.</p>
+<h3>7.4 Consent for advertising</h3>
+<p>Where required by law (in particular for users in the EU/EEA, the United Kingdom and Switzerland), the Game asks
+for your consent before it starts its ad mediation and before any ad is requested. Until you answer, the Game requests
+no ads. However, some advertising components included in the app, in particular the Yandex advertising SDK and the
+AppMetrica components bundled with it, start automatically when the app launches. They may contact their provider
+before you answer, sending device and technical information and, if it is available on your device, the advertising
+ID. Your choice is passed to them as soon as you make it. If you decline, ads are still shown, but they are
+non-personalized.</p>
 <p>You can change your decision at any time in the Game: <strong>Settings → “Ads &amp; privacy” →
 “Change”</strong>. Your choice is passed to our mediation partner and to every ad network in the
-waterfall. You can additionally use the device-level controls described in Sections 7.1–7.2 at any
-time.</p>
-<h3>7.4 California residents — “Do Not Sell or Share” (CCPA/CPRA)</h3>
+waterfall. You can also use the device-level controls described in Sections 7.2–7.3 at any time.</p>
+<p>This consent covers advertising only. Choosing <strong>“Essential only”</strong> in the consent prompt turns off
+personalized ads; it does not stop the game statistics in Section 2.1. Those statistics do not include your
+advertising ID and are never used for advertising. They are sent whether or not you consent to personalized ads; your
+choices for them are in Section 7.1.</p>
+<h3>7.5 California residents — “Do Not Sell or Share” (CCPA/CPRA)</h3>
 <p>If you are a California resident, you have the right to <strong>opt out of the “sale” or “sharing” of
 your personal information</strong>. Depending on their settings, some advertising partners may treat the
 use of your advertising identifier for personalized ads as a “sale” or “share.” To exercise this
-choice, use the opt-outs in Sections 7.1–7.3 and/or contact us at the address in Section 12. We do
-not ourselves sell or share your personal information, because we do not collect it.</p>
-<h3>7.5 GDPR rights (EU/EEA/UK)</h3>
+choice, use the opt-outs in Sections 7.2–7.4 and/or contact us at the address in Section 12. We do not sell or share
+the game statistics we collect (Section 2.1), and we do not use them for advertising.</p>
+<h3>7.6 GDPR rights (EU/EEA/UK)</h3>
 <p>You have rights under the GDPR / UK GDPR, including the rights to access, rectify, erase,
 restrict, or object to processing, data portability, and lodging a complaint with a supervisory
-authority. Because we do not hold your personal data, requests relating to advertising data should
-be directed to the relevant advertising partner listed in Section 4. We will assist you in
-identifying the correct partner if you contact us.</p>
+authority. For the game statistics we hold (Section 2.1), contact us as described in Section 7.1. Requests about
+advertising data should be directed to the relevant advertising partner listed in Section 4; if you contact us, we
+will help you identify the right partner.</p>
 
 <h2>8. Security</h2>
-<p>Your save data stays locally on your device, so its security depends primarily on your device's
-own protections (screen lock, OS security, physical control). Data transmitted to ad partners is
-handled under those partners' security practices. No method of electronic transmission or storage is
-100% secure.</p>
+<p>Your save file and the Game's queued statistics are kept in the Game's private storage on your device, encrypted
+and signed so that tampering can be detected. Their security also depends on your device's own protections (screen
+lock, OS security, physical control). Everything the Game sends to our server travels over encrypted HTTPS
+connections, and each batch of game statistics is signed with the installation's key. Our database is not publicly
+accessible. Only the developer can reach it, through password- and token-protected administration tools, including the
+software tools described in Section 4c. Data transmitted to partners is handled under those partners' security
+practices. No method of electronic transmission or storage is 100% secure.</p>
 
 <h2>9. International Transfers</h2>
-<p>We do not collect or transfer your personal data. Our advertising partners are global companies
-and may process the information they collect on servers located in countries other than yours. Those
-transfers are governed by each partner's privacy policy and legal transfer mechanisms (such as
-Standard Contractual Clauses where applicable).</p>
+<p>Our server is located in the Republic of Moldova, and traffic to the server passes through Cloudflare's
+global network (Section 4c). If you live elsewhere, the game statistics in Section 2.1 are sent to, and stored in, a
+country other than yours. We limit them to the pseudonymous data described in Section 2.1 (no name, contact details or
+advertising ID) and protect them as described in Section 8. Our advertising partners and other third-party providers
+are global companies and may process the information they collect on servers in countries other than yours. Those
+transfers are governed by each partner's privacy policy and legal transfer mechanisms (such as Standard Contractual
+Clauses where applicable).</p>
 
 <h2>10. Changes to This Policy</h2>
-<p>We may update this Privacy Policy from time to time — for example, if we add, remove, or change
-advertising partners or SDKs. When we do, we will revise the “Last updated” date at the top and post
-the new version at the same URL.</p>
+<p>We may update this Privacy Policy from time to time, for example if we add, remove, or change
+advertising partners or SDKs, or change what the Game sends to our server. When we do, we will revise the
+“Last updated” date at the top and post the new version at the same URL.</p>
 
 <h2>11. Governing Law</h2>
-<p>This Privacy Policy is governed by the laws of the developer's country of residence, except where
-mandatory consumer- or data-protection laws of your country of residence provide you with additional
-rights.</p>
+<p>This Privacy Policy is governed by the laws of the developer's country of residence, except where mandatory consumer- or
+data-protection laws of your country of residence provide you with additional rights.</p>
 
 <h2>12. Contact</h2>
 <ul>
-  <li><strong>Developer:</strong> m0pxx</li>
-  <li><strong>Email:</strong> mc.c0rp@icloud.com</li>
-  <li><strong>App listing:</strong> <a href="https://play.google.com/store/apps/details?id=m0pxx.polypour">Google Play — Poly Pour</a></li>
+  <li><strong>Developer:</strong> m0pxx (developer name on Google Play: mc_c0rp)</li>
+  <li><strong>Email:</strong> <a href="mailto:mc.c0rp@icloud.com">mc.c0rp@icloud.com</a></li>
+  <li><strong>Privacy requests</strong> (deletion, a copy of your data, objections): email the address above with the
+      subject “Poly Pour data request” (see <a href="#data-deletion">Section 7.1</a>).</li>
+  <li><strong>App listing:</strong> <a href="https://play.google.com/store/apps/details?id=m0pxx.polypour">Google Play — Poly Pour: Color Sort Puzzle!</a></li>
 </ul>
-<p>We will respond to legitimate privacy inquiries within a reasonable timeframe.</p>
+<p>We will respond to privacy requests within 30 days.</p>
 
 </body>
 </html>
