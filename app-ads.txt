@@ -371,3 +371,34 @@ media.net, 8cusc3uj7, RESELLER
 media.net, 8cuuq286l, RESELLER
 sharethrough.com, uvcax8il, RESELLER, d53b998a7bd4ecd12
 themediagrid.com, falino, RESELLER, 9fac4a4a87c2a44f
+
+# Добавлено 2026-11-10 (строки от рекламных партнёров LevelPlay/iSX, присланы владельцем)
+smartadserver.com, 4625, RESELLER, 060d053dcf45cbf3
+start.io, 131192070, RESELLER
+smaato.com, 1100059345, RESELLER, 07bcf65f187117b4
+bold-win.com, 1189, RESELLER, 71746737d0bab951
+adwmg.com, 159512, RESELLER, c9688a22012618e7
+bold-win.com, 1013, RESELLER, 71746737d0bab951
+monetrix.ai, 10761, RESELLER
+triplelift.com, 12158, RESELLER, 6c33edb13117fd86
+pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
+verve.com, 1008379, RESELLER, 0c8f5958fc2d6270
+playdigo.com, 1965, RESELLER
+appnexus.com, 17973, RESELLER, f5ab79cb980f11d1
+media.net, 8CAXEGFDP, RESELLER
+triplelift.com, 8614, RESELLER, 6c33edb13117fd86
+smartclip.net, 15458, RESELLER
+rubiconproject.com, 24752, RESELLER, 0bfd66d529a55807
+freewheel.tv, 741650, RESELLER
+xandr.com, 7353, RESELLER
+lijit.com, 606973, RESELLER, fafdf38b16bf6b2b
+bigo.sg, adidz3dyfp, RESELLER
+e-planning.net, 79ded3cfca3d3b78, RESELLER, c1ba615865ed87b2
+pubmatic.com, 160145, RESELLER, 5d62403b186f2ace
+pubmatic.com, 168244, RESELLER, 5d62403b186f2ace
+loopme.com, 2896, RESELLER, 6c8d5f95897a5a3b
+thunder-monetize.com, 2158729563, RESELLER
+openx.com, 540393169, RESELLER, 6a698e2ec38604c6
+video.unrulymedia.com, 947824792, RESELLER
+my-cast.tv, 987033, RESELLER, 8c33fe1bd714ffd7
+pubmatic.com, 165874, RESELLER, 5d62403b186f2ace
