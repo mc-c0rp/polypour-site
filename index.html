@@ -20,7 +20,7 @@
 
 <h1>Privacy Policy for Poly Pour</h1>
 <p class="meta"><strong>Effective date:</strong> July 21, 2026<br>
-<strong>Last updated:</strong> November 8, 2026</p>
+<strong>Last updated:</strong> November 9, 2026</p>
 
 <p>This Privacy Policy explains what information is collected when you use the mobile game
 <strong>Poly Pour</strong> (listed on Google Play as “Poly Pour: Color Sort Puzzle!”, package
@@ -40,12 +40,16 @@ this Privacy Policy.</p>
       (Section 4b).</li>
   <li><strong>We collect game statistics.</strong> Whenever your device is online, the Game sends our server
       (<code>polypourapi.mwhisper.xyz</code>) records of what happens in the Game: gameplay, in-game currency, in-app
-      purchases, whether ads were shown, and basic technical information. These records are linked to a random
-      installation ID that the Game creates. We use them for analytics, for game features, and to prevent cheating and
-      fraud. We do not sell them, share them with advertisers, or use them for advertising (Sections 2.1 and 3).</li>
+      purchases, ads, and basic technical information. For ads, this means which ad network showed each ad, its format,
+      the estimated revenue and the country that the ad partner reports for it, and how ads loaded or failed to load.
+      These records are linked to a random installation ID that the Game creates. We use them for
+      analytics (including measuring how ads work in the Game), for game features, and to prevent cheating and fraud.
+      We do not sell them or share them with advertisers, and we do not use them to choose, target or personalize the
+      ads you see (Sections 2.1 and 3).</li>
   <li><strong>Our server does not receive</strong> your name or Play Games gamer name, email address, phone number,
-      contacts, photos, precise location, Google account, Play Games ID or advertising ID. (If you email us, we
-      receive your email address; see Section 7.1.)</li>
+      contacts, photos, precise location, Google account, Play Games ID or advertising ID, or which advertiser or ad
+      you saw. The only location information it receives is the country code reported with each ad shown. (If you
+      email us, we receive your email address; see Section 7.1.)</li>
   <li><strong>Advertising partners</strong> and other third-party components in the Game (Unity, Google, Yandex)
       collect information such as your advertising ID, your IP address and approximate location, device information,
       crash reports, information about other apps installed on your device, and how you interact with ads and the app. Some of these components start as soon as the app
@@ -73,8 +77,19 @@ installation a secret key, which the Game uses to sign its events so that they c
       started, completed or quit, with the mode (campaign, daily, weekly), stars, number of moves, time spent, and hints
       or extra tubes used; daily rewards, missions, weekly puzzles and achievements; battle-pass progress and rewards;
       crates opened and what they contained; skins bought with gems or equipped; in-game announcements shown and the
-      buttons tapped; and whether an ad was shown, watched to the end, or held back by the Game's own pacing rules (not
-      which ad or advertiser).</li>
+      buttons tapped; and whether an ad was shown, watched to the end, or held back by the Game's own pacing rules.</li>
+  <li><strong>Ads shown:</strong> for each ad shown, the ad network that served it (for example Unity Ads or
+      ironSource Ads), the ad format (banner, rewarded, interstitial or app-open), where in the Game it was shown, the
+      identifier of the ad unit and the name of the network instance that we set up in our mediation account, and the
+      estimated revenue that the ad partner reports for that single impression (in US dollars, and how precise that
+      estimate is). If our ad mediation partner, Unity LevelPlay, reports a country for the impression, we also
+      receive that country as a two-letter code. LevelPlay determines it itself; the Game does not use your device's
+      location. These records do not identify the advertiser or the ad itself (its creative), and they do not contain
+      your advertising ID.</li>
+  <li><strong>Ad loading and diagnostics:</strong> periodic summaries for each ad format of how many ads the Game
+      requested, how many loaded (and from which ad networks), failed, were shown and were completed, the error codes of
+      failed loads and failed displays, and loading times; and, once per launch, whether each advertising SDK started,
+      with its error code and a short error message if it did not.</li>
   <li><strong>In-game currency:</strong> every change to your gems and its reason, and your gem, hint and extra-tube
       balance at the time of each event.</li>
   <li><strong>Progress summary</strong> (at the start of a session): highest level unlocked, total stars, number of
@@ -90,7 +105,8 @@ installation a secret key, which the Game uses to sign its events so that they c
   <li><strong>IP address:</strong> like any internet server, ours receives your IP address with every request. We use
       it to protect the server from abuse (for example, to limit how many requests one address can make). It is also
       stored once, with the installation's registration record, for security purposes. We do not use it to find out
-      your location.</li>
+      your location. The only location information we receive is the country code reported with ads (see “Ads shown”
+      above).</li>
 </ul>
 <p>The Game also downloads live content from our server (new skins, images, battle-pass seasons, in-game
 announcements), as well as the share of players who have earned each achievement. These downloads send no identifier,
@@ -118,7 +134,9 @@ Depending on the partner, this may include:</p>
       Yandex SDK.</li>
 </ul>
 <p>Advertising partners handle this information as independent companies, under their own privacy policies
-(Section 4). We do not have access to the identifiers or profiles they build. Where the law requires consent, the Game
+(Section 4). We do not have access to the identifiers or profiles they build. For each ad shown, the advertising SDK
+tells the Game which network served it and its estimated revenue, and the LevelPlay mediation SDK also reports the
+country of the impression. The Game sends this to our server with the other game statistics (Section 2.1). Where the law requires consent, the Game
 does not start its ad mediation or request any ad until you answer the consent prompt; some partner components start
 earlier, as explained in Section 7.4.</p>
 
@@ -141,12 +159,17 @@ to the app you choose. We do not receive it.</p>
 <ul>
   <li><strong>Understand and improve the Game</strong> (analytics): for example, which levels are too hard, how long
       sessions last, how many players come back, and how rewards, prices, ads and purchases perform;</li>
+  <li><strong>Measure and fix ads in the Game:</strong> for example, how often each ad network and ad format fills an
+      ad request, which loading errors occur and on how many devices, whether each advertising SDK starts, and how much
+      ad revenue the Game earns by day, country, ad network and ad format. We use this to fix ad problems and to choose
+      our ad settings;</li>
   <li><strong>Run Game features:</strong> for example, showing in the Game the share of players who have earned each
       achievement (an overall figure that identifies no one);</li>
   <li><strong>Prevent fraud and keep the Game secure:</strong> detecting cheating, tampering with the save file or the
       Game's memory, fake purchases, and abuse of our server.</li>
 </ul>
-<p>We do <strong>not</strong> use these statistics for advertising. We do not sell them, we do not share them with
+<p>We do <strong>not</strong> use these statistics to choose, target or personalize the ads you see, and we do not
+build advertising profiles from them. We do not sell them, we do not share them with
 advertising partners or other third parties, and we do not try to find out who you are. Only we and the service
 providers that run our server on our behalf (Section 4c) handle them. Where the GDPR or UK GDPR applies, we rely on our
 <strong>legitimate interests</strong> in running, improving and securing the Game (Article 6(1)(f) GDPR).</p>
@@ -266,7 +289,8 @@ Game or set up a new device, the Game continues with the same installation ID. T
 after the restore, or turn off app backup in your device's settings.</p>
 <p><strong>On our server.</strong> The game statistics in Section 2.1 are kept as follows:</p>
 <ul>
-  <li>individual events: up to <strong>12 months</strong> after we receive them;</li>
+  <li>individual events, including the ad records described in Section 2.1: up to <strong>12 months</strong> after we
+      receive them;</li>
   <li>an installation's records (its registration record, including the IP address stored at registration, and its
       summary: first and last activity, latest progress and balances, sessions, active days, achievements reached
       and anti-cheat flags): until <strong>12 months after the installation was last active</strong>;</li>
@@ -277,7 +301,7 @@ after the restore, or turn off app backup in your device's settings.</p>
   <li>emails you send us about a privacy request: until <strong>12 months after we close the request</strong>.</li>
 </ul>
 <p>We may keep totals and averages that cannot identify any installation (for example, “40% of players finished
-level 20”) for longer.</p>
+level 20”, or the Game's ad revenue per day and country) for longer.</p>
 <p><strong>Advertising and partner data.</strong> Data collected by advertising partners and other third-party
 components (Sections 2.2 and 2.3) is retained and deleted according to each partner's own privacy policy and retention
 practices, which we do not control.</p>
@@ -347,14 +371,15 @@ non-personalized.</p>
 waterfall. You can also use the device-level controls described in Sections 7.2–7.3 at any time.</p>
 <p>This consent covers advertising only. Choosing <strong>“Essential only”</strong> in the consent prompt turns off
 personalized ads; it does not stop the game statistics in Section 2.1. Those statistics do not include your
-advertising ID and are never used for advertising. They are sent whether or not you consent to personalized ads; your
+advertising ID and are never used to target or personalize ads. They are sent whether or not you consent to
+personalized ads; your
 choices for them are in Section 7.1.</p>
 <h3>7.5 California residents — “Do Not Sell or Share” (CCPA/CPRA)</h3>
 <p>If you are a California resident, you have the right to <strong>opt out of the “sale” or “sharing” of
 your personal information</strong>. Depending on their settings, some advertising partners may treat the
 use of your advertising identifier for personalized ads as a “sale” or “share.” To exercise this
 choice, use the opt-outs in Sections 7.2–7.4 and/or contact us at the address in Section 12. We do not sell or share
-the game statistics we collect (Section 2.1), and we do not use them for advertising.</p>
+the game statistics we collect (Section 2.1), and we do not use them to target or personalize ads.</p>
 <h3>7.6 GDPR rights (EU/EEA/UK)</h3>
 <p>You have rights under the GDPR / UK GDPR, including the rights to access, rectify, erase,
 restrict, or object to processing, data portability, and lodging a complaint with a supervisory
