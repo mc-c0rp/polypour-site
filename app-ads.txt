@@ -402,3 +402,12 @@ openx.com, 540393169, RESELLER, 6a698e2ec38604c6
 video.unrulymedia.com, 947824792, RESELLER
 my-cast.tv, 987033, RESELLER, 8c33fe1bd714ffd7
 pubmatic.com, 165874, RESELLER, 5d62403b186f2ace
+
+# Добавлено 2026-11-11 (присланы владельцем, точно в таком регистре: эти записи уже есть выше
+# в нижнем регистре, но проверка их не засчитала — держим оба написания)
+media.net, 8CU5L226O, RESELLER
+media.net, 8CU9B72O6, RESELLER
+sharethrough.com, SniqCOMC, RESELLER, d53b998a7bd4ecd2
+themediagrid.com, B8N9YH, RESELLER, 35d5010d7789b49d
+themediagrid.com, JVHG38, RESELLER, 9fac4a4a87c2a44f
+triplelift.com, 14705-EB, RESELLER
